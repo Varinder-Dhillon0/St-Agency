@@ -6,7 +6,7 @@ import { email, phone, address,linkedin, facebook, google ,vk , z, yt,digg } fro
 export default function Footer() {
 
     return (
-        <div className=" bg-black pt-20 pb-20 text-white">
+        <div className=" bg-black pt-20 pb-20 text-white" id="contact">
             <div className="w-[90%] sm:w-[70%] xl:w-[70%] ml-auto mr-auto">
                 <H2 label={"Contacts.."} />
                 <div className="flex w-[100%] justify-between flex-wrap">

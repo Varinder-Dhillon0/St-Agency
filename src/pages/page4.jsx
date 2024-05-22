@@ -4,13 +4,13 @@ import { one, two, three, four, five, six } from "../assets"
 export default function Page4() {
 
     return (
-        <div className="flex pt-20 flex-col">
+        <div className="flex pt-20 flex-col" id="profile">
             <div className="text-center w-[100%]">
                 <H2 label={"Profile"} />
                 <h1 className="font-mont font-black text-xl">I Make Beautiful Thinks</h1>
             </div>
 
-            <div className="grid grid-cols-1 gap-0 mt-10 md:mt-0 md:grid-cols-4 md:grid-rows-[1fr_0.5fr] img-grid">
+            <div className="grid grid-cols-1 gap-2 lsm:gap-5 md:pl-0 md:pr-0 lsm:pl-20 lsm:pr-20 md:gap-0 mt-10 md:mt-0 md:grid-cols-4 md:grid-rows-[1fr_0.5fr] img-grid">
                 <div className="overflow-hidden md:col-span-2 md:w-[100.01%]">
                     <img src={one} className="w-full h-full object-cover" />
                 </div>

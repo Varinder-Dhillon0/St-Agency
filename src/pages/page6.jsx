@@ -3,7 +3,7 @@ import { cardback } from "../assets";
 
 export default function Page6() {
     return (
-        <div className="w-full pt-28 pb-28">
+        <div className="w-full pt-28 pb-28" id="blog">
             <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-3 gap-6 w-[93%] md:w-[70%] ml-auto mr-auto">
                 <div className="md:col-span-2">
                     <H2 label={"Blog"} />

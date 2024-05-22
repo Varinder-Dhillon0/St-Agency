@@ -6,7 +6,7 @@ export default function Page5() {
     const img = "h-fit w-44 mt-3"
 
     return (
-        <div className="text-white bg-[#000] pt-20 pb-20 bg-cover" style={{backgroundImage : `url(${backlogos})`, backgroundPositionX : "-200px"}}>
+        <div className="text-white bg-[#000] pt-20 pb-20 bg-cover" id="client" style={{backgroundImage : `url(${backlogos})`, backgroundPositionX : "-200px"}}>
             <div className="w-[84%] sm:w-[70%] ml-auto mr-auto text-center">
                 <H2 label={"Client"} />
                 <h1 className="font-mont font-black text-2xl">What I Do..</h1>

@@ -12,6 +12,8 @@
 
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
 }
 
 .hero{
